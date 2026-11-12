@@ -300,7 +300,7 @@ PARAMS = [
     ("TAB_SLOT_CH", 1.0, "45 deg flare on the finger slot at the lid top"),
     ("CAP_PEG_D", 4.3, "cap peg diameter (seals in the grommet lips)"), ("CAP_PEG_L", 8.0, "cap peg straight length"),
     ("FIL_HOLE", 2.0, "filament hole through the cap"),
-    ("ANCHOR_D", 4.35, "tether anchor peg diameter (light press in ANCHOR_HOLE_D)"),
+    ("ANCHOR_D", 4.15, "tether anchor peg diameter (4.35 was tight in the printed ANCHOR_HOLE_D)"),
     ("TETHER_L", "=PARK_X - OUT_X", "cap centre to anchor centre (strap lies straight in its channel)"), ("STRAP_W", 3.5, "strap width"), ("STRAP_T", 1.0, "strap thickness"),
     ("# HYGROMETER CRADLE (no supports: prints on its back)", None, ""),
     ("MH_L", 44.5, "hygrometer body width"), ("MH_W", 25.5, "hygrometer body height"), ("MH_D", 13.0, "body depth"),
@@ -317,9 +317,9 @@ PARAMS = [
     ("CR_ZB", "=CR_ZT - CR_HH - 2", "cradle bottom z"),
 ]
 # M3 seam bolts (y, z) - edit directly in the sketches "InsertHoles" / "BoltHoles"
-# 6 screws (user uses 6): ends moved in from 27 -> 23 and the lower pair spread 8 -> 10 / raised 5 -> 6, so a
+# 6 screws (user uses 6): ends 25 (27 hit the 1/4" bit on the hanger blocks, 26 is the limit; 25 leaves it 1.3 mm) and the lower pair spread 8 -> 10 / raised 5 -> 6, so a
 # 90 deg driver head fits (hanger blocks start at |y| 30, band underside at z 0.7, top plate at z 27)
-SEAM_BOLTS = [(-23.0, 17.0), (23.0, 17.0), (-12.0, 18.5), (12.0, 18.5), (-10.0, 6.0), (10.0, 6.0)]
+SEAM_BOLTS = [(-25.0, 17.0), (25.0, 17.0), (-12.0, 18.5), (12.0, 18.5), (-10.0, 6.0), (10.0, 6.0)]
 
 
 MATHNS = {"pi": math.pi, "sqrt": math.sqrt, "floor": math.floor, "ceil": math.ceil, "abs": abs,
@@ -1351,7 +1351,7 @@ def build_outlet(doc):
             (1.6, tip), (1.3, tip), ("FIL_HOLE / 2", "%s - 2.5" % tip), ("FIL_HOLE / 2", 1.2)])
     revolve(cp, "Cap", s, "V_Axis")
     s, b = sketch(cp, "StrapSketch", "XY_Plane", 0)
-    b.rect(6.5, "TETHER_L - 4", "-STRAP_W / 2", "STRAP_W / 2")
+    b.rect(6.5, "TETHER_L", "-STRAP_W / 2", "STRAP_W / 2")           # runs into the anchor cone: fused over its full thickness
     pad(cp, "Strap", s, "STRAP_T")
     s, b = sketch(cp, "PullTabSketch", "XY_Plane", 0)                 # lift this with a fingernail
     b.slot_x("-(TAB_L - TAB_W / 2)", "-(CAP_R2 - 2)", "TAB_W / 2")

@@ -1,0 +1,106 @@
+{
+    "error_string": "Success.",
+    "export_time": 0,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 1,
+    "prepare_time": 62,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Bottom surface": 15.175459861755371,
+                "Brim": 46.329566955566406,
+                "Custom": 353.35784912109375,
+                "Flush": 28.0,
+                "Gap infill": 13.632729530334473,
+                "Inner wall": 1152.083251953125,
+                "Internal solid infill": 473.1899108886719,
+                "Outer wall": 550.9392700195313,
+                "Overhang wall": 2.509579658508301,
+                "Sparse infill": 386.1147155761719,
+                "Top surface": 38.63262939453125,
+                "Travel": 609.6697998046875,
+                "Undefined": 591.309814453125
+            },
+            "filament_change_times": 0,
+            "filaments": [
+                {
+                    "filament_id": "GFG00",
+                    "id": 1,
+                    "main_used_g": 9.716229438781738,
+                    "total_used_g": 9.716229438781738
+                }
+            ],
+            "generate_support_material_time": 21,
+            "id": 1,
+            "infill_time": 105,
+            "layer_filament_change": 0,
+            "main_predication": 3260.214111328125,
+            "make_perimeters_time": 84,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 24.369916915893555,
+                        "height": 40.5,
+                        "width": 24.369918823242188,
+                        "x": 87.73503112792969,
+                        "y": 86.03365325927734,
+                        "z": 0.0
+                    },
+                    "id": 5,
+                    "name": "StubAxle_x2_1",
+                    "triangle_count": 9776
+                },
+                {
+                    "bbox": {
+                        "depth": 24.369916915893555,
+                        "height": 40.5,
+                        "width": 24.369922637939453,
+                        "x": 67.89505767822266,
+                        "y": 86.03365325927734,
+                        "z": 0.0
+                    },
+                    "id": 9,
+                    "name": "StubAxle_x2_2",
+                    "triangle_count": 9776
+                },
+                {
+                    "bbox": {
+                        "depth": 23.094017028808594,
+                        "height": 24.0,
+                        "width": 24.00000762939453,
+                        "x": 77.99998474121094,
+                        "y": 70.552001953125,
+                        "z": 1.0000000116860974e-07
+                    },
+                    "id": 13,
+                    "name": "MiddleRod_1",
+                    "triangle_count": 9828
+                }
+            ],
+            "sliced_time": 578,
+            "sliced_time_with_cache": 301,
+            "total_predication": 3651.212158203125,
+            "triangle_count": 29380,
+            "warning_message": ""
+        }
+    ],
+    "sparse_infill_density": 15.0,
+    "upward_compatible_machine": [
+        "Bambu Lab P1S 0.4 nozzle",
+        "Bambu Lab P1P 0.4 nozzle",
+        "Bambu Lab X1 0.4 nozzle",
+        "Bambu Lab X1 Carbon 0.4 nozzle",
+        "Bambu Lab X1E 0.4 nozzle",
+        "Bambu Lab A1 0.4 nozzle",
+        "Bambu Lab H2D 0.4 nozzle",
+        "Bambu Lab H2D Pro 0.4 nozzle",
+        "Bambu Lab H2S 0.4 nozzle",
+        "Bambu Lab P2S 0.4 nozzle",
+        "Bambu Lab H2C 0.4 nozzle",
+        "Bambu Lab X2D 0.4 nozzle",
+        "Bambu Lab A2L 0.4 nozzle"
+    ],
+    "wall_loops": 4
+}

@@ -282,6 +282,6 @@
  "compatible_printers": [
   "Bambu Lab A1 mini 0.4 nozzle"
  ],
- "brim_type": "auto_brim",
+ "brim_type": "outer_only",
  "curr_bed_type": "Textured PEI Plate"
 }

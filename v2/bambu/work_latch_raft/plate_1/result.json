@@ -1,0 +1,93 @@
+{
+    "error_string": "Success.",
+    "export_time": 0,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 1,
+    "prepare_time": 24,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Bottom surface": 1.4598500728607178,
+                "Custom": 353.4966735839844,
+                "Flush": 28.0,
+                "Gap infill": 124.2872543334961,
+                "Inner wall": 857.3973999023438,
+                "Internal solid infill": 251.13055419921875,
+                "Outer wall": 406.2550964355469,
+                "Overhang wall": 1.3325979709625244,
+                "Support": 148.39462280273438,
+                "Support interface": 36.18034744262695,
+                "Top surface": 12.784767150878906,
+                "Travel": 538.9325561523438,
+                "Undefined": 520.4637451171875
+            },
+            "filament_change_times": 0,
+            "filaments": [
+                {
+                    "filament_id": "GFG00",
+                    "id": 1,
+                    "main_used_g": 11.856457710266113,
+                    "total_used_g": 11.856457710266113
+                }
+            ],
+            "generate_support_material_time": 15,
+            "id": 1,
+            "infill_time": 15,
+            "layer_filament_change": 0,
+            "main_predication": 2349.976318359375,
+            "make_perimeters_time": 27,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 14.456006050109863,
+                        "height": 24.0,
+                        "width": 37.04999923706055,
+                        "x": 71.5,
+                        "y": 50.001136779785156,
+                        "z": 0.0
+                    },
+                    "id": 5,
+                    "name": "Latch_x4_1",
+                    "triangle_count": 558
+                },
+                {
+                    "bbox": {
+                        "depth": 14.456006050109863,
+                        "height": 24.0,
+                        "width": 37.04999923706055,
+                        "x": 71.5,
+                        "y": 115.50113677978516,
+                        "z": 0.0
+                    },
+                    "id": 9,
+                    "name": "Latch_x4_2",
+                    "triangle_count": 558
+                }
+            ],
+            "sliced_time": 238,
+            "sliced_time_with_cache": 151,
+            "total_predication": 2741.00439453125,
+            "triangle_count": 1116,
+            "warning_message": ""
+        }
+    ],
+    "sparse_infill_density": 15.0,
+    "upward_compatible_machine": [
+        "Bambu Lab P1S 0.4 nozzle",
+        "Bambu Lab P1P 0.4 nozzle",
+        "Bambu Lab X1 0.4 nozzle",
+        "Bambu Lab X1 Carbon 0.4 nozzle",
+        "Bambu Lab X1E 0.4 nozzle",
+        "Bambu Lab A1 0.4 nozzle",
+        "Bambu Lab H2D 0.4 nozzle",
+        "Bambu Lab H2D Pro 0.4 nozzle",
+        "Bambu Lab H2S 0.4 nozzle",
+        "Bambu Lab P2S 0.4 nozzle",
+        "Bambu Lab H2C 0.4 nozzle",
+        "Bambu Lab X2D 0.4 nozzle",
+        "Bambu Lab A2L 0.4 nozzle"
+    ],
+    "wall_loops": 4
+}

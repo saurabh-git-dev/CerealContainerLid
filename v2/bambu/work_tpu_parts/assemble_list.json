@@ -1,0 +1,17 @@
+{
+ "plates": [
+  {
+   "plate_name": "TPU outlet parts (eSUN 95A)",
+   "need_arrange": true,
+   "objects": [
+    {
+     "path": "C:\\Users\\SK\\Desktop\\Personal\\CerealFilamentLid\\v2\\stl_cereal\\TPU_CapTether.stl",
+     "count": 1,
+     "filaments": [
+      1
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,53 @@
+stub valid True solids 1 vol 2.00 cm3 | rod valid True solids 1 vol 6.42 cm3
+Stub_A  x Adapter_A  overlap 0.000 mm3, gap 0.50 mm
+Stub_A  x Adapter_B  overlap 0.000 mm3, gap 30.72 mm
+Stub_A  x Bearing_A  overlap 0.000 mm3, gap 0.00 mm
+Stub_A  x Bearing_B  overlap 0.000 mm3, gap 29.74 mm
+Stub_A  x Hanger_A   overlap 0.000 mm3, gap 0.00 mm
+Stub_A  x Hanger_B   overlap 0.000 mm3, gap 44.50 mm
+Stub_A  x Box        overlap 0.000 mm3, gap 1.75 mm
+Stub_A  x Rod overlap 0.000 mm3, gap 0.12
+Stub_B  x Adapter_A  overlap 0.000 mm3, gap 30.72 mm
+Stub_B  x Adapter_B  overlap 0.000 mm3, gap 0.50 mm
+Stub_B  x Bearing_A  overlap 0.000 mm3, gap 29.74 mm
+Stub_B  x Bearing_B  overlap 0.000 mm3, gap 0.00 mm
+Stub_B  x Hanger_A   overlap 0.000 mm3, gap 44.50 mm
+Stub_B  x Hanger_B   overlap 0.000 mm3, gap 0.00 mm
+Stub_B  x Box        overlap 0.000 mm3, gap 1.75 mm
+Stub_B  x Rod overlap 0.000 mm3, gap 0.12
+Rod     x Adapter_A  overlap 0.000 mm3, gap 4.86 mm
+Rod     x Adapter_B  overlap 0.000 mm3, gap 4.86 mm
+Rod     x Bearing_A  overlap 0.000 mm3, gap 4.70 mm
+Rod     x Bearing_B  overlap 0.000 mm3, gap 4.70 mm
+Rod     x Hanger_A   overlap 0.000 mm3, gap 19.50 mm
+Rod     x Hanger_B   overlap 0.000 mm3, gap 19.50 mm
+Rod     x Box        overlap 0.000 mm3, gap 29.25 mm
+Cap_A   x Adapter_A  overlap 14.693 mm3, gap 0.00 mm
+Cap_A   x Adapter_B  overlap 0.000 mm3, gap 40.50 mm
+Cap_A   x Bearing_A  overlap 0.000 mm3, gap 0.00 mm
+Cap_A   x Bearing_B  overlap 0.000 mm3, gap 40.70 mm
+Cap_A   x Hanger_A   overlap 0.000 mm3, gap 3.50 mm
+Cap_A   x Hanger_B   overlap 0.000 mm3, gap 55.50 mm
+Cap_A   x Box        overlap 0.000 mm3, gap 13.25 mm
+Cap_A   x Rod overlap 0.000 mm3, gap 2.00
+Cap_B   x Adapter_A  overlap 0.000 mm3, gap 40.50 mm
+Cap_B   x Adapter_B  overlap 14.693 mm3, gap 0.00 mm
+Cap_B   x Bearing_A  overlap 0.000 mm3, gap 40.70 mm
+Cap_B   x Bearing_B  overlap 0.000 mm3, gap 0.00 mm
+Cap_B   x Hanger_A   overlap 0.000 mm3, gap 55.50 mm
+Cap_B   x Hanger_B   overlap 0.000 mm3, gap 3.50 mm
+Cap_B   x Box        overlap 0.000 mm3, gap 13.25 mm
+Cap_B   x Rod overlap 0.000 mm3, gap 2.00
+Stub_A x Cap_A overlap 0.000, gap 4.55
+Stub_B x Cap_B overlap 0.000, gap 4.55
+cap valid True solids 1 vol 5.94 cm3
+cap x adapter B: overlap solids 12, z-spread per solid (expect only rib tips in the holes): [1.22, 1.22, 1.22, 1.22, 1.22, 1.22, 1.22, 1.22, 1.22, 1.22, 1.22, 1.22]
+stub turned  90, moved +0.50: overlap with rod 0.000
+stub turned  90, moved -0.50: overlap with rod 27.264
+stub turned 180, moved +1.00: overlap with rod 0.000
+stub turned 180, moved -1.00: overlap with rod 0.000
+stub turned 270, moved +1.50: overlap with rod 0.000
+stub turned 270, moved -1.50: overlap with rod 30.671
+stub turned 360, moved +2.00: overlap with rod 0.000
+stub turned 360, moved -2.00: overlap with rod 0.000
+thread crest dia 7.60 (608 bore 8.0), tip travel left 3.0, rod end to bearing 4.7

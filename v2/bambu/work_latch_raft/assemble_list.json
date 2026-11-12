@@ -1,0 +1,17 @@
+{
+ "plates": [
+  {
+   "plate_name": "Latches x2 on a raft",
+   "need_arrange": true,
+   "objects": [
+    {
+     "path": "C:\\Users\\SK\\Desktop\\Personal\\CerealFilamentLid\\v2\\stl_cereal\\Latch_x4.stl",
+     "count": 2,
+     "filaments": [
+      1
+     ]
+    }
+   ]
+  }
+ ]
+}
